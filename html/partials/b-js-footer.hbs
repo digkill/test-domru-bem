@@ -1,0 +1,23 @@
+<script id="tarif-template" type="text/template">
+
+            {{#tarif}}
+                <div class='block-tarif '>
+                    <div class='block-tarif__item block-tarif__link {{hit}}'>{{tarif}}</div>
+                    <div class='block-tarif__item'>{{internet}}</div>
+                    <div class='block-tarif__item'>{{sd}}</div>
+                    <div class='block-tarif__item'>{{hd}}</div>
+                    <div class='block-tarif__item'><strike>{{sale}}</strike></div>
+                    <div class='block-tarif__item text-red '>{{price}}</div>
+                    <div class='block-tarif__item block-tarif__change js-d-change' data-name='{{change}}' data-tarif='{{tarif}}' data-price='{{sales}}' data-sale='20' data-summa='{{prices}}'>{{change}}</div>
+                </div>
+            {{/tarif}}
+
+        </script>
+
+
+
+
+        <script type="text/javascript" src='../js/jquery-2.0.0.min.js'></script>
+        <script type="text/javascript" src='../js/main.js'></script>
+        <script type="text/javascript" src='../js/handlebars.js'></script>
+        <script type="text/javascript" src='../js/common.js'></script> 
